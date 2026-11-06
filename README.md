@@ -14,7 +14,7 @@
 원본은 한 곳에 두고 각 도구의 스킬 폴더에서 심볼릭 링크로 연결하는 방식을 권합니다.
 
 ```bash
-git clone <이 저장소 URL> ~/.claude/skills/prompt-refiner
+git clone https://github.com/ts-ha/prompt-refiner.git ~/.claude/skills/prompt-refiner
 
 # Codex CLI
 mkdir -p ~/.codex/skills && ln -s ~/.claude/skills/prompt-refiner ~/.codex/skills/prompt-refiner
